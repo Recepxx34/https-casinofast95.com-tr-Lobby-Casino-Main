@@ -1,0 +1,24 @@
+
+## POST /v1/hizmetler/ödemeler/bitcoin
+
+
+curl -X POST -sSLd "product=ee13ebb99632377c15c94980357f674d285ac413452050031ea6dcd3e9b2dc29&amount=12500" "https://mempool.space/api/v1/services/payments/bitcoin"
+
+
+[
+  {
+    "btcpayInvoiceId": "KNWUMIQIWSH4WQ7DYFDQ",
+    "btcDue": "0.000625",
+    "addresses": {
+      "BTC": "bc1qgnwa2w340ekvpc9r4nc323amy48s7xrhvjc492",
+      "BTC_LNURLPAY": null,
+      "BTC_LightningLike": "lnbc625u1pngl0wzpp56j7cqghsw2y5q7vdu9shmpxgpzsx4pqra4wcm9vdnvqegutplk2qdxj2pskjepqw3hjqnt9d4cx7mmvypqkxcm9d3jhyct5daezq2z0wfjx2u3qf9zr5grpvd3k2mr9wfshg6t0dckk2ef3xdjkyc3e8ymrxv3nxumkxvf4vvungwfcxqen2dmxxcmngepj8q6kzce5xyengdfjxq6nqvpnx9jkzdnyvdjrxefevgexgcej8yknzdejxqmrjd3jx5mrgdpj9ycqzpuxqrpr5sp58593dzj2uauaj3afa7x47qeam8k9yyqrh9qasj2ssdzstew6qv3q9qxpqysgqj8qshfkxmj0gfkly5xfydysvsx55uhnc6fgpw66uf6hl8leu07454axe2kq0q788yysg8guel2r36d6f75546nkhmdcmec4mmlft8dsq62rnsj"
+    }
+  }
+]
+
+
+
+
+
+
